@@ -7,7 +7,7 @@ If you find these results useful, please cite the article mentioned above. If yo
 ```latex
 @misc{bleecke2025Repro,
   title={Reproducibility repository for
-         "Asymptotic-preserving and energy-conserving methods for a hyperbolic approximation of the BBM equation"},
+         "{A}symptotic-preserving and energy-conserving methods for a hyperbolic approximation of the BBM equatio{n}"},
   author={Sebastian Bleecke, Abhijit Biswas, David I. Ketcheson, Hendrik Ranocha and Jochen Schütz},
   year={2025},
   howpublished={\url{https://github.com/sbleecke/2025_bbmh}},
