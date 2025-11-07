@@ -1,8 +1,8 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.10.8"
+julia_version = "1.10.5"
 manifest_format = "2.0"
-project_hash = "7466f9965178584ac4df4ec155a355d7afd7b138"
+project_hash = "3ef55bc8032cc45db378e6f147f15efedb71cb0a"
 
 [[deps.ADTypes]]
 git-tree-sha1 = "fc02d55798c1af91123d07915a990fbb9a10d146"
@@ -426,6 +426,12 @@ version = "0.5.5"
 [[deps.Distributed]]
 deps = ["Random", "Serialization", "Sockets"]
 uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+
+[[deps.DistributedNext]]
+deps = ["Random", "Serialization", "Sockets"]
+git-tree-sha1 = "7ed104c9bcd298c2318bc3f16a2da593db057359"
+uuid = "fab6aee4-877b-4bac-a744-3eca44acbb6f"
+version = "1.1.0"
 
 [[deps.Distributions]]
 deps = ["AliasTables", "FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SpecialFunctions", "Statistics", "StatsAPI", "StatsBase", "StatsFuns"]
