@@ -10,6 +10,7 @@ If you find these results useful, please cite the article mentioned above. If yo
          "{A}symptotic-preserving and energy-conserving methods for a hyperbolic approximation of the BBM equatio{n}"},
   author={Sebastian Bleecke, Abhijit Biswas, David I. Ketcheson, Hendrik Ranocha and Jochen Schütz},
   year={2025},
+  doi={https://doi.org/10.5281/zenodo.17566795}
   howpublished={\url{https://github.com/sbleecke/2025_bbmh}},
 }
 ```
