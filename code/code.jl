@@ -1195,7 +1195,11 @@ function petviashvili_plot_validation()
 
 
     end
-    savefig(fig_u,joinpath(figdir,"Petviashvili_validation_u.pdf"))
+
+    filename = joinpath(figdir,"Petviashvili_validation_u.png")
+    savefig(fig_u, filename)
+    @info "Saved figure" filename
+
     return nothing
 end
 
@@ -1364,7 +1368,10 @@ function petviashvili_error_growth(; delta1 = 0, delta2 = 0, delta3 = 1,
     end
 
     #saving the plot
-    savefig(fig_err, joinpath(figdir, "Error_Growth__BBMH_$(alg)_$(eps)_order$(order_test)_dt($dt).pdf"))
+    filename = joinpath(figdir,"Error_Growth__BBMH_$(alg)_$(eps)_order$(order_test)_dt($dt).pdf")
+    savefig(fig_err, filename)
+    @info "Saved figure" filename
+
     return fig_err
 end
 
@@ -1487,7 +1494,9 @@ function solitary_wave_error_growth(;eps, accuracy_order = 6, alg = ARS443(), dt
     plot!(fig_err, series_t, series_error; label = "BBMH relaxation", plot_kwargs()...)
     plot!(fig_err; xscale = :log10, yscale = :log10, plot_kwargs()...)
 
-    savefig(fig_err, joinpath(figdir, "Error_Growth__BBM_$(alg)_$(eps)_order$(accuracy_order)_dt($dt).pdf"))
+    filename = joinpath(figdir, "Error_Growth__BBM_$(alg)_$(eps)_order$(accuracy_order)_dt($dt).pdf")
+    savefig(fig_err, filename)
+    @info "Saved figure" filename
 
     return fig_err
 end
