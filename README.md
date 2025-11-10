@@ -1,4 +1,8 @@
 # Asymptotic-preserving and energy-conserving methods for a hyperbolic approximation of the BBM equation
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17566794.svg)](https://doi.org/10.5281/zenodo.17566794)
+
 This repository contains information and code to reproduce the results presented in the article
 
 TODO: Insert ArXiv reference
@@ -13,7 +17,7 @@ If you find these results useful, please cite the article mentioned above. If yo
   author={Bleecke, Sebastian and Biswas, Abhijit and Ketcheson, David I.
           and Ranocha, Hendrik and Sch{\"u}tz, Jochen},
   year={2025},
-  doi={https://doi.org/10.5281/zenodo.17566795},
+  doi={10.5281/zenodo.17566794},
   howpublished={\url{https://github.com/sbleecke/2025_bbmh}},
 }
 ```
