@@ -17,7 +17,7 @@ If you find these results useful, please cite the article mentioned above. If yo
   author={Bleecke, Sebastian and Biswas, Abhijit and Ketcheson, David I.
           and Ranocha, Hendrik and Sch{\"u}tz, Jochen},
   year={2025},
-  doi={10.5281/zenodo.17570083},
+  doi={10.5281/zenodo.17566794},
   howpublished={\url{https://github.com/sbleecke/2025_bbmh}},
 }
 ```
