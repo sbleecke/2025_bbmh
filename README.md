@@ -5,7 +5,19 @@
 
 This repository contains information and code to reproduce the results presented in the article
 
-TODO: Insert ArXiv reference
+```bibtex
+@online{bleecke2025asymptotic,
+  title={Asymptotic-preserving and energy-conserving methods for a hyperbolic
+         approximation of the {BBM} equation},
+  author={Bleecke, Sebastian and Biswas, Abhijit and Ketcheson, David I and
+          Sch{\"u}tz, Jochen and Ranocha, Hendrik},
+  year={2025},
+  month={11},
+  eprint={2511.10044},
+  eprinttype={arxiv},
+  eprintclass={math.NA}
+}
+```
 
 If you find these results useful, please cite the article mentioned above. If you use the implementations provided here, please also cite this repository as
 
